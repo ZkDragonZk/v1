@@ -32250,7 +32250,7 @@ a.u-link.u-text-hover-grey-90:hover {
 }
 
 .u-header .u-menu-1 {
-  margin: 11px 0 11px auto;
+  margin: 11px 20px 11px auto;
 }
 
 .u-header .u-nav-1 {
@@ -32264,11 +32264,24 @@ a.u-link.u-text-hover-grey-90:hover {
 @media (max-width: 1199px) {
   .u-header .u-menu-1 {
     width: auto;
+    margin-right: 16px;
   }
 }
-
-
-
+@media (max-width: 991px) {
+  .u-header .u-menu-1 {
+    margin-right: 12px;
+  }
+}
+@media (max-width: 767px) {
+  .u-header .u-menu-1 {
+    margin-right: 9px;
+  }
+}
+@media (max-width: 575px) {
+  .u-header .u-menu-1 {
+    margin-right: 6px;
+  }
+}
 .u-footer {
   background-image: none;
 }
